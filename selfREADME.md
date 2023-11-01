@@ -52,11 +52,11 @@ _""_
 
 ### Warning
 
-<!-- ** normal copyright ** -->
+** normal copyright **
 
 __" Please refrain from unauthorized coping or downloading of content, as such actions are subject to legal consequences and potential charges.We encourage respectful and responsible use of the resouces prvided for learning purpose."__
 
-<!-- ** information provide warning ** -->
+** information provide warning **
 
 __"  "__
 
