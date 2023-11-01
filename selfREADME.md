@@ -1,3 +1,5 @@
+<!--
+
 # repository
 
 - Name : "project_name"
@@ -50,8 +52,13 @@ _""_
 
 ### Warning
 
+<!-- ** normal copyright ** -->
+
 __" Please refrain from unauthorized coping or downloading of content, as such actions are subject to legal consequences and potential charges.We encourage respectful and responsible use of the resouces prvided for learning purpose."__
 
+<!-- ** information provide warning ** -->
+
+__"  "__
 
 
-
+-->
