@@ -56,9 +56,12 @@ _""_
 
 __" Please refrain from unauthorized coping or downloading of content, as such actions are subject to legal consequences and potential charges.We encourage respectful and responsible use of the resouces prvided for learning purpose."__
 
-** information provide warning **
+** education purpose not certificate or fee **
 
-__"  "__
+__" This website is meticulously crafted for educational purpose, aiming to facilitate learning and skill enchcement. It is crucial to underastand that while every effort has been mode to ensure accuracy and quality, we cannot guarantee the absence of errors or omissions. We do not provide certification services, nor do we impose any fees for access "__
 
+** copyright not copy download **
+
+__" We urge all users to respect the copyright and intellectual property rights associated with the content on this website. Unauthorized copying, downloading, or any form of content misuse is strictly prohibited. Such actions may lead to legal consequences and potential charges. "__
 
 -->
