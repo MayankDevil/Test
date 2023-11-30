@@ -12,7 +12,7 @@
     | Bootstrap Icons |
     -------------------
 */
-@import url("../css/bootstrap-icons.min.css");
+@import "../css/bootstrap-icons.min.css";
 
 .bi
 {
@@ -61,7 +61,7 @@
 /*
     service css -------------------------
 */
-#service .row .col:hover
+.serve:hover
 {
     box-shadow: 2px 2px 5px var(--bs-gray);    
 }
