@@ -1,79 +1,79 @@
 
-मयंक 
-
-My work in the world of coding reflects my skills and dedication.If you have a task that aligns with my abilities, please feel free to reach out.
-
-"Each day, we have the power to impact the world, but the most profound change, the kind that truly resonates, often requires patience and time."
-
-i have a passion for web development and programming. I've completed successfully some projects that you can check out.
-
-Hi, 👋 I am Mayank!
-
-🚀 About Me
-
-    A passionate Developer from India.
-    I like Developing Website & Programming.
-    I have learn by experience & practical implementation.
+# Portfolio
 
 
-🛠 Skills
+- 
 
-Typing Speed [ 40wpm ] minimum
-
-Fontend Developement { HTML | CSS | JavaScript }
-
-Handling Bootstrap Layout
-
-Backend Developement { PHP }
-
-Java Core Programming
-
-mySQL Database Query
-
-how to use Git, I know
-
-Basic Knowlegde of GIMP
-
-Work experience with Linux & Windows OS
+- Name : "Protfolio"
 
 
-🔗 Links
+- Description : _"Mayank, a proficient programmer and web developer, showcases a compelling personal portfolio that reflects his mastery in crafting dynamic and visually stunning digital experiences. With a keen eye for detail and a passion for cutting-edge technologies, Mayank delivers innovative solutions that elevate user engagement and seamlessly blend form with function. Explore his portfolio to witness a fusion of creativity and technical expertise, highlighting his commitment to excellence in the world of programming and web development."_
 
-https://mastermayank.w3spaces.com/
+- Version : main
 
-https://github.com/MayankDevil
+- Update : 03-12-2023
 
-https://www.linkedin.com/in/MasterMayank
+- Status : REST
+
+- Responsive : True
+
+- TechStack : { HTML | CSS | JavaScript | Bootstrap }
+
+- Thanks : { GitHub | VSCodium | GIMP | Bootstrap & Bootstrap-Icons | MayankDevil }
+
+- Collabrate : { Self }
+
+<!-- 
+
+- URL : https://mayankdevil.github.io/repository/
+
+- Clone : https://github.com/mayankdevil/repository.git
+
+- Download : https://github.com/mayankdevil/repository/archive/refs/heads/main.zip
 
 
-Testimonial 
+#### Project Look & Feel
 
+![NETWORK_ERROR](./data/website.png)
 
--   Be authentic. Use your own words and voice to describe your experience.
+#### Responsive
 
--   Be specific. Include details about what you did, how you did it, and what results you achieved.
+_""_
 
--   Be concise. Keep your testimonial short and to the point. Avoid unnecessary words or jargon.
+  **SCREEN** { 1200PX | 992PX | 785PX | 556PX }
 
--   Be positive. Focus on the benefits and value you received from the product or service.  Highlight how it solved your problem or improved your situation.
+#### Theme
 
-Here is an example of a testimonial quote for a portfolio:
+_""_
 
-    I hired [your name] to design my website and I couldn’t be happier with the outcome. He was professional, creative, and responsive throughout the whole process. He listened to my needs and delivered a website that exceeded my expectations. It is user-friendly, attractive, and functional. It has helped me attract more clients and grow my business. I highly recommend [your name] to anyone looking for a talented and reliable web designer.
+#### Key Feature that make website more valuble
 
-I hope this helps you write your own testimonial quote for your portfolio. If you need more assistance, please let me know. 😊
+ - [x] primary_feature
+ - [ ] secondary_feature
 
-    For a graphic designer: What did you like most about the design [your name] created for you?
-    For a writer: How did [your name]'s writing style and tone match your brand voice and audience?
-    For a photographer: How did [your name] capture the essence and emotion of your special moment?
-    For a coach: How did [your name] help you overcome your challenges and achieve your desired outcomes?
+#### Requirement to use
 
-To write a good testimonial prompt, you should follow these tips12:
+-  primary_need
+-  secondary_need
 
-    Be specific. Ask about a particular aspect of your work, such as the quality, the process, or the results.
-    Be open-ended. Avoid yes or no questions that limit the response. Instead, use words like how, what, or why to elicit more details and feedback.
-    Be positive. Frame your prompt in a way that highlights the benefits and value of your work. Avoid negative or leading questions that might influence the response.
-    Be concise. Keep your prompt short and simple. Don’t overwhelm your customers with too many questions or too much information.
+### Warning
 
-I hope this helps you write your own testimonial prompt for your portfolio. If you need more assistance, please let me know. 😊
+** normal copyright **
 
+__" Please refrain from unauthorized coping or downloading of content, as such actions are subject to legal consequences and potential charges.We encourage respectful and responsible use of the resouces prvided for learning purpose."__
+
+** education purpose not certificate or fee **
+
+__" This website is meticulously crafted for educational purpose, aiming to facilitate learning and skill enchcement. It is crucial to underastand that while every effort has been mode to ensure accuracy and quality, we cannot guarantee the absence of errors or omissions. We do not provide certification services, nor do we impose any fees for access "__
+
+** copyright not copy download **
+
+__" We urge all users to respect the copyright and intellectual property rights associated with the content on this website. Unauthorized copying, downloading, or any form of content misuse is strictly prohibited. Such actions may lead to legal consequences and potential charges. "__
+
+** justify **
+
+__" We embrace responsible and ethical use of the resources we provide. Our goal is to empower learners in a conducive and lawful environment, fostering a sense of respect and integrity within our community. Your commitment to these principles is greatly appreciated. "__
+
+-->
+
+[![twitter](https://img.shields.io/badge/MayankDevil-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MayankDevil/)
