@@ -1,0 +1,142 @@
+/*
+-   website-22 "E-Commerce"
+-   Copyright by ( https://github.com/MayankDevil/ )
+-   Designed | Developed by MayankDevil
+-   CSS : ./css/style.css
+*/
+*
+{
+    margin:0;
+    padding: 0;
+    user-select: none;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji";
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+:root
+{
+    --secondary:#ffbe76;
+    --primary:#fa8231;
+    --light:#95afc0;
+    --dark:#20252b;
+    --white:#f8f9fa;
+    --black:#10151b;
+}
+/*
+    main css --------------------------------
+*/
+body
+{
+    background: var(--dark);
+}
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+}
+/*
+    header css ------------------------------
+*/
+#header
+{
+    padding: 0.5rem 1rem;
+    background: var(--dark);
+}
+h1
+{
+    color: var(--light);
+}
+h5
+{
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color:var(--secondary);
+}
+h6
+{
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color:var(--white);
+}
+span
+{
+    color:var(--white);
+}
+/*
+    audioList css ---------------------------
+*/
+#audioList
+{   
+    max-height: 100vh;
+    background: var(--dark);
+}
+article
+{
+    width: 50%;
+    margin: 1rem 0;
+    background-color: var(--black);
+    border-radius: 5px;
+}
+article:hover
+{
+    box-shadow: 5px 5px 10px var(--black);
+}
+.song_play_btn
+{
+    /* margin: 0; */
+    padding: 5px 1rem;
+    font-size: 1.5rem;
+    color: var(--primary);
+    background: transparent;
+    border-left: 1px dotted var(--white);
+    border-radius: 0 5px 5px 0;
+}
+.song_play_btn:hover
+{
+    color:var(--black);
+    border-color: var(--primary);
+    background: var(--secondary);
+}
+.flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*
+    footer css ------------------------------
+*/
+#footer
+{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background: var(--black);
+}
+#footer .container
+{
+    padding: 1rem;
+    border-top: 1px solid var(--light);
+}
+#song
+{
+    padding: 0;
+}
+#songName
+{
+    padding:0 1rem;
+    color: var(--primary);
+}
+#rythom
+{
+    width: 100px;
+    background: var(--primary);
+}
+
+/*
+    the end =================================
+*/
