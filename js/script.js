@@ -6,29 +6,99 @@
 */
 try
 {
-    // Create an audio context
-const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    sangeetData = [
+        {
+          title : `Bad boy`,
+          duration : `03:17`,
+          source : `data/song/Bad boy.mp3`
+        },
+        {
+          title : `Chrissy Constanza`,
+          duration : `01:00`,
+          source : `data/song/Chrissy Costanza.mp3`
+        },
+        {
+          title : `I Am Dangerous`,
+          duration : `01:00`,
+          source : `data/song/I Am Dangerous.mp3`
+        },
+        {
+          title : `I Like It Loud`,
+          duration : `01:00`,
+          source : `data/song/I Like It Loud.mp3`
+        }
+    ]
+  
+    let audioList = document.getElementById('audioList').firstElementChild
+    
+    /*
+        -------------------------
+        | audio Layout function |
+        -------------------------
+    */
+  
+    function audioLayout(data)
+    {
+        // console.log(data.source)
 
-// Create an audio buffer source
-const audioSource = audioContext.createBufferSource();
+        return (`
 
-// Load an audio file
-fetch('path/to/your/audiofile.mp3')
-  .then(response => response.arrayBuffer())
-  .then(data => audioContext.decodeAudioData(data))
-  .then(buffer => {
-    // Assign the decoded audio buffer to the source
-    audioSource.buffer = buffer;
+            <article class="flex">
 
-    // Connect the source to the audio context's destination (i.e., speakers)
-    audioSource.connect(audioContext.destination);
+                <h5 class="songName"> ${data.title} </h5>
 
-    // Start playing the audio
-    audioSource.start();
-  })
-  .catch(error => console.error('Error loading audio:', error));
+                <div class="flex">
+
+                    <h6 class="time"> ${data.duration} </h6>
+
+                    <button class="song_play_btn"> &#9205; </button>
+
+                </div>
+
+            </article>
+
+        `)
+    }
+    
+    /*
+        [ fetch data in audio Layout or display ]--------------------------------
+    */
+    
+    for (i = 0; i < sangeetData.length; i++)
+    {
+        audioList.insertAdjacentHTML("afterbegin",`${ audioLayout(sangeetData[i]) }`)
+  
+    }
+    
+    let audioTrack = document.getElementsByTagName('article')
+    
+    let audioPlayer = document.getElementById('audioPlayer').children[0]
+  
+    for (i = 0; i < audioTrack.length; i++)
+    {
+        audioTrack[i].onclick = () => {
+        
+            //console.log(sangeetData[i].source)
+        
+            audioPlayer.src = sangeetData[i].source
+        }
+    }
+
+  // let audioPlayer = document.getElementById('source')
+
+  // audioPlayer.src = sangeetData[0].source
+
+  const audio = new Audio(sangeetData[0].source);
+
+  audio.play();
+
+  setTimeout(function () {
+    audio.pause();
+    // console.log('Audio stopped after', timeLimitInSeconds, 'seconds.');
+  }, 1000);
+
 }
-catch(error)
+catch (error)
 {
-    console.warn(error)
-}
+  console.warn(error)
+} 
