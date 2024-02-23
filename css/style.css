@@ -72,7 +72,8 @@ span
 #audioList
 {   
     max-height: 100vh;
-    background: var(--dark);
+    background: url('data/bg.jpg') no-repeat;
+    background-size:cover;
 }
 article
 {
@@ -95,7 +96,7 @@ article:hover
     border-left: 1px dotted var(--white);
     border-radius: 0 5px 5px 0;
 }
-.song_play_btn:hover
+.isActive
 {
     color:var(--black);
     border-color: var(--primary);
