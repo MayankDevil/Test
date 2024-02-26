@@ -1,68 +1,98 @@
-import javax.swing.*;
-import javax.swing.border.Border;
-import java.awt.*;
-
-class Test
+class Test extends javax.swing.JFrame implements java.awt.event.ActionListener
 {
-    public static void main(String args[])
-    {
-        SwingUtilities.invokeLater(() -> {
-        
-            JFrame frame = new JFrame("Testing");
-            
-            frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
-            
-            JLabel label = new JLabel("Welcome");
-            
-            JPanel top = new JPanel();
-            
-            top.setBackground(Color.green);
-            
-            top.add(label);
-            
-            JTextField field1 = new JTextField(30);
-            
-            JTextField field2 = new JTextField(30);
-            
-            field2.setSize(300,50);
-            
-            JPanel center = new JPanel();
-            
-            center.setBackground(Color.red);
-            
-            center.add(field1);
-            
-            center.add(field2);
-            
-            JPanel bottom = new JPanel();
-            
-            bottom.setBackground(Color.blue);
-            
-            frame.add(top,BorderLayout.NORTH);
-            
-            frame.add(center,BorderLayout.CENTER);
-            
-            frame.add(bottom,BorderLayout.SOUTH);
-            
-            frame.setSize(500,500);
-            
-            frame.setVisible(true);
-        
-        });
-    }
+	javax.swing.JLabel title, subtitle;
+
+	javax.swing.JButton button;
+
+	javax.swing.JPanel footer;
+
+	Test()
+	{
+		this.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
+		
+		this.setBounds(100,100,500,500);
+
+		this.setLayout(new java.awt.GridLayout(3,1));
+
+			// title ------
+		
+			title = new javax.swing.JLabel("Welcome");
+
+			title.setFont(new java.awt.Font("arial",java.awt.Font.BOLD,50));
+
+			title.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+			title.setForeground(java.awt.Color.decode("#2bcbcc"));
+
+			title.setBackground(java.awt.Color.decode("#2c3e50"));
+
+			title.setOpaque(true);
+
+			// subtitle ------
+
+			subtitle = new javax.swing.JLabel("The Ruler of Hell is Back");
+
+			subtitle.setFont(new java.awt.Font("arial",java.awt.Font.PLAIN,30));
+
+			subtitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+			subtitle.setForeground(java.awt.Color.decode("#c7ecee"));
+
+			subtitle.setBackground(java.awt.Color.decode("#2c3e50"));
+
+			subtitle.setOpaque(true);
+
+			// Footer -------
+
+			footer = new javax.swing.JPanel();
+
+			//	footer.setVerticalAlignment(javax.swing.SwingConstants.CENTER);
+
+				// button ------
+
+				button = new javax.swing.JButton("Welcome");
+
+				button.setSize(200,50);
+
+				button.setFont(new java.awt.Font("arial",java.awt.Font.BOLD,20));
+
+				button.setFocusable(false);
+
+				button.setForeground(java.awt.Color.decode("#c7ecee"));
+
+				button.setBackground(java.awt.Color.decode("#2c3e50"));
+
+				button.addActionListener(this);
+
+			footer.add(button);
+
+
+		this.add(title);
+
+		this.add(subtitle);
+
+		this.add(footer);
+
+		this.setVisible(true);
+	}
+
+
+	public void actionPerformed(java.awt.event.ActionEvent event)
+	{
+		if (event.getSource() == button)
+		{
+			System.out.println("[ ACTIVE ]");
+
+			title.setText("Mayank The Devil");
+		}
+		else
+		{
+			System.exit(0);
+		}
+	}
+
+	public static void main(String args[])
+	{
+		new Test();
+	}
 }
-/*
-
-#155724
-#d4edda
-#c3e6cb
-
-#721c24
-#f8d7da
-#f5c6cb
-
-#ffffff
-#0069d9
-#0062cc
-
-*/
